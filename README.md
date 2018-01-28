@@ -1,6 +1,6 @@
 # Destroy All Software - Code
 
-Code comes from videos on the [Destroy All Software screencasts](https://www.destroyallsoftware.com/screencasts)
+Code comes from videos on [Destroy All Software](https://www.destroyallsoftware.com/screencasts)
 
 # Contents
 
