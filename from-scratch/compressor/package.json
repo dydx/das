@@ -1,0 +1,12 @@
+{
+  "name": "@dydx/compressor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec ruby compressor.rb"
+  },
+  "keywords": [],
+  "author": "Josh Sandlin <josh.sandlin@turner.com> (http://adultswim.com)",
+  "license": "MIT"
+}
