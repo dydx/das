@@ -1,0 +1,12 @@
+{
+  "name": "@dydx/compiler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ruby compiler.rb | node"
+  },
+  "keywords": [],
+  "author": "Josh Sandlin <josh.sandlin@turner.com> (http://adultswim.com)",
+  "license": "MIT"
+}
