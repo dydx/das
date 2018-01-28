@@ -161,10 +161,10 @@ class Generator
 end
 
 tokens = Tokenizer.new(File.read("test.src")).tokenize
-#puts tokens.map(&:inspect).join("\n")
 tree = Parser.new(tokens).parse
-#p tree
 generated = Generator.new.generate(tree)
+
 RUNTIME = "function add(x, y) { return x + y };"
 TEST = "console.log(f(1, 2));"
+
 puts [RUNTIME, generated, TEST].join("\n")
